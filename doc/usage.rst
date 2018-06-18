@@ -138,7 +138,8 @@ few command line options:
    internal mirror of the PyPI or you run a special instance that only
    exposes selected packages of PyPI. If this is not provided, the
    default will be whatever ``pip`` uses as default (usually
-   ``http://pypi.python.org/simple``).
+   ``http://pypi.python.org/simple`` or ``https://pypi.org/simple/``,
+   depending on the pip version).
 
 .. cmdoption:: --extra-pip-arg <PIP ARG>
 
